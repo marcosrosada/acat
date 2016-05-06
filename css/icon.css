@@ -1,0 +1,93 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+  font-family: 'Material-Design-Icons';
+  src: url("fonts/module/Material-Design-Icons.eot?3ocs8m");
+  src: url("fonts/module/Material-Design-Icons.eot?#iefix3ocs8m") format("embedded-opentype"), url("fonts/module/Material-Design-Icons.woff?3ocs8m") format("woff"), url("fonts/module/Material-Design-Icons.ttf?3ocs8m") format("truetype"), url("fonts/module/Material-Design-Icons.svg?3ocs8m#Material-Design-Icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mdi-"], [class*="mdi-"] {
+  speak: none;
+  display: inline-block;
+  font: normal normal normal 16px/1 'Material-Design-Icons';
+  text-rendering: auto;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+[class^="mdi-navigation-apps"], [class*="mdi-navigation-apps"] {
+  font: normal normal normal 24px/1 'Material-Design-Icons';
+}
+
+[class^="mdi-content-add-circle-outline"], [class*="mdi-content-add-circle-outline"] {
+  font: normal normal normal 16px/1 'Material-Design-Icons';
+}
+
+
+
+[class^="mdi-"]:before, [class*="mdi-"]:before {
+  display: inline-block;
+  speak: none;
+  text-decoration: inherit;
+}
+
+.mdi-navigation-apps:before {
+  content: "\e8a0";
+}
+
+.mdi-alert-warning:before {
+  content: "\e6a4";
+}
+
+.mdi-content-add-circle-outline:before {
+  content: "\e6ff";
+}
+
+.mdi-content-add-circle:before {
+  content: "\e700";
+}
+
+.mdi-image-timer:before {
+  content: "\e860";
+}
+
+.mdi-action-search:before {
+  content: "\e661";
+}
+
+.mdi-content-create:before {
+  content: "\e709";
+}
+
+.mdi-editor-border-color:before {
+  content: "\e77b";
+}
+
+.mdi-image-timer-auto:before {
+  content: "\e85e";
+}
+
+.mdi-social-group-add:before {
+  content: "\e8d9";
+}
+
+.mdi-social-person-add:before {
+  content: "\e8e6";
+}
+
+.mdi-content-remove-circle-outline:before {
+  content: "\e714";
+}
+.mdi-action-reorder:before {
+  content: "\e65c";
+}
+.mdi-notification-sms-failed:before {
+  content: "\e8cc";
+}
+.mdi-notification-sms:before {
+  content: "\e8cd";
+}

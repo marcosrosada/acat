@@ -1,0 +1,27 @@
+{
+  "name": "acat",
+  "description": "ACAT - Aplicação de Catalago",
+  "main": "",
+  "authors": [
+    "Marcos Rosada <marcos.rosada@rustcon.com.br>"
+  ],
+  "keywords": [
+    "AngularJS",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.5",
+    "font-awesome": "fontawesome#^4.6.2"
+  }
+}
